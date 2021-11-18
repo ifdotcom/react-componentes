@@ -28,10 +28,11 @@ function App() {
           <hr />
           <Propiedades
             cadena="Cadena de texto"
-            // numero={20}
+            numero={20}
             booleano={true}
             arreglo={[1, 2, 3]}
             objeto={{ nombre: "Fernanda Vidal", correo: "ifervb@outlook.com" }}
+            funcion={(num) => num * num}
             elementoReact={<i>Esto es un elemento de React</i>}
             componenteReact={
               <Componente msg="Componente de react pasado como prop." />
